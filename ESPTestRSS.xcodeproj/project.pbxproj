@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EA07B1EE17F76D4AB1CB4D /* libPods-ESPTestRSS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE00764F3DCE68E2AFF1DC9 /* libPods-ESPTestRSS.a */; };
+		84126C6E1E06B5E50047349E /* ESPLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84126C6D1E06B5E50047349E /* ESPLoader.m */; };
+		84126C711E06D7C60047349E /* ESPNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84126C701E06D7C60047349E /* ESPNewsTableViewCell.m */; };
+		84126C731E06E3A00047349E /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 84126C721E06E3A00047349E /* placeholder.png */; };
+		842487C11E082C020026FD19 /* ESPFeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842487C01E082C020026FD19 /* ESPFeedsViewController.m */; };
+		842487C41E0986100026FD19 /* ESPFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 842487C31E0986100026FD19 /* ESPFeed.m */; };
+		845E1DDD1E07CFD70087D579 /* ESPNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E1DDC1E07CFD70087D579 /* ESPNewsViewController.m */; };
+		84CB30901E06A9A7004C9DA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB308F1E06A9A7004C9DA2 /* main.m */; };
+		84CB30931E06A9A7004C9DA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB30921E06A9A7004C9DA2 /* AppDelegate.m */; };
+		84CB30961E06A9A7004C9DA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB30951E06A9A7004C9DA2 /* ViewController.m */; };
+		84CB30991E06A9A7004C9DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CB30971E06A9A7004C9DA2 /* Main.storyboard */; };
+		84CB309C1E06A9A7004C9DA2 /* ESPTestRSS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84CB309A1E06A9A7004C9DA2 /* ESPTestRSS.xcdatamodeld */; };
+		84CB309E1E06A9A7004C9DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CB309D1E06A9A7004C9DA2 /* Assets.xcassets */; };
+		84CB30A11E06A9A7004C9DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CB309F1E06A9A7004C9DA2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38F0D0B08BD9AF21676974D6 /* Pods-ESPTestRSS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPTestRSS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESPTestRSS/Pods-ESPTestRSS.release.xcconfig"; sourceTree = "<group>"; };
+		6CE00764F3DCE68E2AFF1DC9 /* libPods-ESPTestRSS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ESPTestRSS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84126C6C1E06B5E50047349E /* ESPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPLoader.h; sourceTree = "<group>"; };
+		84126C6D1E06B5E50047349E /* ESPLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPLoader.m; sourceTree = "<group>"; };
+		84126C6F1E06D7C60047349E /* ESPNewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNewsTableViewCell.h; sourceTree = "<group>"; };
+		84126C701E06D7C60047349E /* ESPNewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNewsTableViewCell.m; sourceTree = "<group>"; };
+		84126C721E06E3A00047349E /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		842487BF1E082C020026FD19 /* ESPFeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPFeedsViewController.h; sourceTree = "<group>"; };
+		842487C01E082C020026FD19 /* ESPFeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPFeedsViewController.m; sourceTree = "<group>"; };
+		842487C21E0986100026FD19 /* ESPFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPFeed.h; sourceTree = "<group>"; };
+		842487C31E0986100026FD19 /* ESPFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPFeed.m; sourceTree = "<group>"; };
+		845E1DDB1E07CFD70087D579 /* ESPNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNewsViewController.h; sourceTree = "<group>"; };
+		845E1DDC1E07CFD70087D579 /* ESPNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNewsViewController.m; sourceTree = "<group>"; };
+		84CB308B1E06A9A7004C9DA2 /* ESPTestRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPTestRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CB308F1E06A9A7004C9DA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84CB30911E06A9A7004C9DA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84CB30921E06A9A7004C9DA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84CB30941E06A9A7004C9DA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84CB30951E06A9A7004C9DA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84CB30981E06A9A7004C9DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CB309B1E06A9A7004C9DA2 /* ESPTestRSS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ESPTestRSS.xcdatamodel; sourceTree = "<group>"; };
+		84CB309D1E06A9A7004C9DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CB30A01E06A9A7004C9DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CB30A21E06A9A7004C9DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E074A29F65F3418E53E92707 /* Pods-ESPTestRSS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPTestRSS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESPTestRSS/Pods-ESPTestRSS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CB30881E06A9A7004C9DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EA07B1EE17F76D4AB1CB4D /* libPods-ESPTestRSS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E01394269ADFCABE51DC85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E074A29F65F3418E53E92707 /* Pods-ESPTestRSS.debug.xcconfig */,
+				38F0D0B08BD9AF21676974D6 /* Pods-ESPTestRSS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C7F332F42B7A75B72551391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE00764F3DCE68E2AFF1DC9 /* libPods-ESPTestRSS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84CB30821E06A9A6004C9DA2 = {
+			isa = PBXGroup;
+			children = (
+				84CB308D1E06A9A7004C9DA2 /* ESPTestRSS */,
+				84CB308C1E06A9A7004C9DA2 /* Products */,
+				39E01394269ADFCABE51DC85 /* Pods */,
+				3C7F332F42B7A75B72551391 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84CB308C1E06A9A7004C9DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CB308B1E06A9A7004C9DA2 /* ESPTestRSS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CB308D1E06A9A7004C9DA2 /* ESPTestRSS */ = {
+			isa = PBXGroup;
+			children = (
+				84CB30911E06A9A7004C9DA2 /* AppDelegate.h */,
+				84CB30921E06A9A7004C9DA2 /* AppDelegate.m */,
+				84CB30941E06A9A7004C9DA2 /* ViewController.h */,
+				84CB30951E06A9A7004C9DA2 /* ViewController.m */,
+				84126C6F1E06D7C60047349E /* ESPNewsTableViewCell.h */,
+				84126C701E06D7C60047349E /* ESPNewsTableViewCell.m */,
+				842487BF1E082C020026FD19 /* ESPFeedsViewController.h */,
+				842487C01E082C020026FD19 /* ESPFeedsViewController.m */,
+				842487C21E0986100026FD19 /* ESPFeed.h */,
+				842487C31E0986100026FD19 /* ESPFeed.m */,
+				845E1DDB1E07CFD70087D579 /* ESPNewsViewController.h */,
+				845E1DDC1E07CFD70087D579 /* ESPNewsViewController.m */,
+				84126C6C1E06B5E50047349E /* ESPLoader.h */,
+				84126C6D1E06B5E50047349E /* ESPLoader.m */,
+				84CB30971E06A9A7004C9DA2 /* Main.storyboard */,
+				84CB309D1E06A9A7004C9DA2 /* Assets.xcassets */,
+				84CB309F1E06A9A7004C9DA2 /* LaunchScreen.storyboard */,
+				84CB30A21E06A9A7004C9DA2 /* Info.plist */,
+				84CB309A1E06A9A7004C9DA2 /* ESPTestRSS.xcdatamodeld */,
+				84CB308E1E06A9A7004C9DA2 /* Supporting Files */,
+				84126C721E06E3A00047349E /* placeholder.png */,
+			);
+			path = ESPTestRSS;
+			sourceTree = "<group>";
+		};
+		84CB308E1E06A9A7004C9DA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CB308F1E06A9A7004C9DA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CB308A1E06A9A7004C9DA2 /* ESPTestRSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CB30A51E06A9A7004C9DA2 /* Build configuration list for PBXNativeTarget "ESPTestRSS" */;
+			buildPhases = (
+				C04F9095441633F04FA7AFBF /* [CP] Check Pods Manifest.lock */,
+				84CB30871E06A9A7004C9DA2 /* Sources */,
+				84CB30881E06A9A7004C9DA2 /* Frameworks */,
+				84CB30891E06A9A7004C9DA2 /* Resources */,
+				B73FAD92BBC7600E2CC26222 /* [CP] Embed Pods Frameworks */,
+				CFC412A400654DCD828AA60B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESPTestRSS;
+			productName = ESPTestRSS;
+			productReference = 84CB308B1E06A9A7004C9DA2 /* ESPTestRSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CB30831E06A9A6004C9DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					84CB308A1E06A9A7004C9DA2 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84CB30861E06A9A6004C9DA2 /* Build configuration list for PBXProject "ESPTestRSS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CB30821E06A9A6004C9DA2;
+			productRefGroup = 84CB308C1E06A9A7004C9DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CB308A1E06A9A7004C9DA2 /* ESPTestRSS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CB30891E06A9A7004C9DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB30A11E06A9A7004C9DA2 /* LaunchScreen.storyboard in Resources */,
+				84126C731E06E3A00047349E /* placeholder.png in Resources */,
+				84CB309E1E06A9A7004C9DA2 /* Assets.xcassets in Resources */,
+				84CB30991E06A9A7004C9DA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B73FAD92BBC7600E2CC26222 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESPTestRSS/Pods-ESPTestRSS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04F9095441633F04FA7AFBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFC412A400654DCD828AA60B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESPTestRSS/Pods-ESPTestRSS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CB30871E06A9A7004C9DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CB30961E06A9A7004C9DA2 /* ViewController.m in Sources */,
+				842487C41E0986100026FD19 /* ESPFeed.m in Sources */,
+				842487C11E082C020026FD19 /* ESPFeedsViewController.m in Sources */,
+				84126C711E06D7C60047349E /* ESPNewsTableViewCell.m in Sources */,
+				84126C6E1E06B5E50047349E /* ESPLoader.m in Sources */,
+				84CB30931E06A9A7004C9DA2 /* AppDelegate.m in Sources */,
+				84CB30901E06A9A7004C9DA2 /* main.m in Sources */,
+				845E1DDD1E07CFD70087D579 /* ESPNewsViewController.m in Sources */,
+				84CB309C1E06A9A7004C9DA2 /* ESPTestRSS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84CB30971E06A9A7004C9DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CB30981E06A9A7004C9DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84CB309F1E06A9A7004C9DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CB30A01E06A9A7004C9DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CB30A31E06A9A7004C9DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84CB30A41E06A9A7004C9DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CB30A61E06A9A7004C9DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E074A29F65F3418E53E92707 /* Pods-ESPTestRSS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ESPTestRSS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ESPTestRSS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84CB30A71E06A9A7004C9DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F0D0B08BD9AF21676974D6 /* Pods-ESPTestRSS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ESPTestRSS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ESPTestRSS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CB30861E06A9A6004C9DA2 /* Build configuration list for PBXProject "ESPTestRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CB30A31E06A9A7004C9DA2 /* Debug */,
+				84CB30A41E06A9A7004C9DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CB30A51E06A9A7004C9DA2 /* Build configuration list for PBXNativeTarget "ESPTestRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CB30A61E06A9A7004C9DA2 /* Debug */,
+				84CB30A71E06A9A7004C9DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84CB309A1E06A9A7004C9DA2 /* ESPTestRSS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84CB309B1E06A9A7004C9DA2 /* ESPTestRSS.xcdatamodel */,
+			);
+			currentVersion = 84CB309B1E06A9A7004C9DA2 /* ESPTestRSS.xcdatamodel */;
+			path = ESPTestRSS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84CB30831E06A9A6004C9DA2 /* Project object */;
+}
